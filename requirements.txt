@@ -1,6 +1,4 @@
-fastapi
-uvicorn
 requests
-markdownify
-azure-storage-blob
 python-dotenv
+azure-storage-blob
+markdownify
