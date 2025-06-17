@@ -1,11 +1,3 @@
 # bluesighttemplate
 
-bluesight/
-├── main.py
-├── config.py 
-├── requirements.txt
-├── .env                     
-├── routers/
-│   └── confluence_router.py
-├── services/
-│   └── confluence_service.py
+template for modifications that need to be made for Blue Sight to be able to port code for Confluence to .MD
