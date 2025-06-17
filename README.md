@@ -2,7 +2,7 @@
 
 bluesight/
 ├── main.py
-├── config.py
+├── config.py 
 ├── requirements.txt
 ├── .env                     
 ├── routers/
