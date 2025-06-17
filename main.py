@@ -1,6 +1,7 @@
-from fastapi import FastAPI
-from routers import confluence_router
+from config import PARENT_PAGE_ID
+from confluence_loader import process_page
 
-app = FastAPI()
-
-app.include_router(confluence_router.router)
+if __name__ == "__main__":
+    print("Starting Confluence to Markdown sync...")
+    process_page(PARENT_PAGE_ID)
+    print("Sync complete.")
